@@ -55,8 +55,7 @@ module.exports = ({ development }) => ({
   plugins: [
     ...esLintPlugin(development),
     new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
-    new HtmlWebpackPlugin({ title: 'Match-match game',
-  template: 'src/index.html' }),
+    new HtmlWebpackPlugin({ title: 'The match-match game', template: 'src/index.html' }),
     new CopyPlugin({
       patterns: [
         { from: 'public' },

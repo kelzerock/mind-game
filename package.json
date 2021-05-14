@@ -1,22 +1,22 @@
 {
-  "name": "match-game",
+  "name": "empty_project",
   "version": "0.0.0",
-  "description": "Match gamen",
+  "description": "Empty project template",
   "private": true,
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve --env development",
     "lint": "eslint src",
-    "fix": "eslint --fix"
+    "fix": "eslint src --fix"
   },
-  "author": "Aleksei Zhuchkov",
+  "author": "Kris Casper",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "clean-webpack-plugin": "^4.0.0-alpha.0",
     "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.4",
-    "eslint": "^7.26.0",
+    "eslint": "^7.25.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-webpack-plugin": "^2.5.4",
@@ -26,8 +26,22 @@
     "sass-loader": "^11.0.1",
     "ts-loader": "^9.1.1",
     "typescript": "^4.2.4",
-    "webpack": "^5.36.2",
-    "webpack-cli": "^4.6.0",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelzerock/mind-game.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelzerock/mind-game/issues"
+  },
+  "homepage": "https://github.com/kelzerock/mind-game#readme",
+  "dependencies": {
+    "parser": "^0.1.4"
   }
 }
